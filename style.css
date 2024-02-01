@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(118, 167, 231);
+}
+
+.panel {
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: rgb(202, 224, 253);
+    overflow: hidden;
+
+}
+
+.top-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(53, 83, 122);
+    padding: 0 27%;
+}
+
+.elem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.elem h2 {
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.box {
+    background-color: white;
+    padding: 5px 15px;
+    color: rgb(53, 83, 122);
+    font-weight: 700;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+.btm-panel {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 20px;
+}
+
+.btm-panel h1 {
+    color: rgb(53, 83, 122);
+    font-size: 100px;
+}
+
+.bubble {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(53, 83, 122);
+    border-radius: 50%;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(28, 63, 105);
+}
